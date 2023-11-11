@@ -1,0 +1,19 @@
+.swiperBtns button {
+  all: unset;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #eee;
+  margin: 0px 5px;
+  transition: all 0.5s;
+}
+
+.swiperBtns button svg {
+  display: block;
+  margin: auto;
+}
+
+.swiperBtns button:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
